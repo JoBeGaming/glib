@@ -69,3 +69,5 @@ def randfloat() -> float:
     """
 
     return __randint(min=0, max=2**53-1) / (2**53)
+
+del __randint
